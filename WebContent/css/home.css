@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+#test_css{
+	background-color: yellow;
+	align-content: center;
+	align-self: center;
+}
+
+.mainContainer {
+	position: relative;
+	width: 100%;
+	align-content: center;
+	
+}
+
+.intern {
+	align-content: center;
+	position: absolute;
+	
+	
+}
