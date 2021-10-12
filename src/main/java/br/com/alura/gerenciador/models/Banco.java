@@ -1,11 +1,9 @@
-package br.com.alura.gerenciador.data;
+package br.com.alura.gerenciador.models;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
-
-import br.com.alura.gerenciador.models.Empresa;
 
 public class Banco {
 
@@ -14,6 +12,7 @@ public class Banco {
 
 	public void adiciona(Empresa empresa) {
 		empresa.setId(Banco.chaveSequencial++);
+		System.out.println("Empresa adicionada");
 		lista.add(empresa);
 	}
 

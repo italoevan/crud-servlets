@@ -26,8 +26,8 @@ List<Empresa> list = (List<Empresa>) request.getAttribute("empresas");
 	
 		 <c:forEach items="${empresas}" var="empresa">
 			<li>${empresa.nome}
-		 	<a href="/gerenciador/mostraEmpresa?id=${empresa.id}"> Editar</a>
-			<a href="/gerenciador/removeEmpresa?id=${empresa.id}">Remover</a>
+		 	<a href="/gerenciador/entrada?acao=MostraEmpresa&id=${empresa.id}"> Editar</a>
+			<a href="/gerenciador/entrada?acao=RemoveEmpresa&id=${empresa.id}">Remover</a>
 		
 			</li>
 		</c:forEach>

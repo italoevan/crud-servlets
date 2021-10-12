@@ -9,7 +9,7 @@
 <title>Altere a empresa</title>
 </head>
 <body>
-	<form action="/gerenciador/alteraEmpresa" method="post" >
+	<form action="/gerenciador/entrada?acao=AlteraEmpresa"  method="post" >
 		Nome: <input type="text" name="nome" value=${empresa.nome}>
 		<input type="hidden" name="id" value="${empresa.id}">
 		<input type="submit">
